@@ -25,7 +25,7 @@ header {
     margin: 20px;
     padding-bottom: 10px;
     background-color: #31572c;
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
@@ -34,6 +34,11 @@ header {
 header h1 {
     color: #f2e8cf;
     margin-bottom: 10px ;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
 .boxes {
     display: flex;
@@ -134,4 +139,16 @@ header h1 {
     width: 25px;
     height: 25px;
     margin-right: 10px;
+}
+@media (max-width: 600px) {
+    header, .boxes {
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .box {
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+    }
 }
